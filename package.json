@@ -1,0 +1,28 @@
+{
+  "name": "@revenuelabs/mcp-server",
+  "version": "0.1.3",
+  "description": "Revenue Labs MCP server",
+  "license": "MIT",
+  "author": "Revenue Labs",
+  "homepage": "https://revenuelabs.co",
+    "type": "module",
+  "bin": {
+    "revlabs-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/index.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "shx": "^0.3.4",
+    "typescript": "^5.6.2"
+  }
+}
