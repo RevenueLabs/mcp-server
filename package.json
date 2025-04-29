@@ -4,6 +4,10 @@
   "description": "Revenue Labs MCP server",
   "license": "MIT",
   "author": "Revenue Labs",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/revenuelabs/mcp-server.git"
+  },
   "homepage": "https://revenuelabs.co",
     "type": "module",
   "bin": {
